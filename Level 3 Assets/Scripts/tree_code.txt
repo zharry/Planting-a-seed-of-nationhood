@@ -1,0 +1,2 @@
+show_message("Try not to crash into a tree next time!")
+global.points-=1

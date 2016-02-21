@@ -1,0 +1,30 @@
+if check=0
+{
+        switch(show_message_ext("King's Bonus! Who was the leader of the party John. A. MacDonald's party allied with?","Cartier","Brown","Dorion"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct! You earn 20 points!")
+                global.points+=20
+                check=1
+                exit
+            }
+            case 2:
+            {
+                show_message("Wrong! MacDonald allied with Cartier. (You lose no points.)")
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! MacDonald allied with Cartier. (You lose no points.)")
+                check=1
+                exit
+            }
+        }
+}

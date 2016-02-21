@@ -1,0 +1,4 @@
+global.points=0
+global.qid=0
+global.qid2=0
+global.qid3=0

@@ -1,0 +1,393 @@
+if check=0
+{
+    if global.qid3=0
+    {
+        switch(show_message_ext("Were the Atlantic colonies undergoing industrial and governmental changes in the 1840s and 1850s?","Yes","","No"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong!")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=1
+    {
+        switch(show_message_ext("Which one of the following was a prominent industry in the Atlantic colonies?","Hunting","","Fishing"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! Fishing was a prominent industry.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=2
+    {
+        switch(show_message_ext("What helped with trade in the Atlantic colonies?","Steamships","","Large ports"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! Steamship lines helped with trade.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=3
+    {
+        switch(show_message_ext("What helped with mail services in the Atlantic colonies? A, larger roads; B, stagecoaches","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! Stagecoaches helped with mail services.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=4
+    {
+        switch(show_message_ext("Did the Atlantic colonies have responsible government in the 1830s?","Yes","","No"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! They did not until the 1840s.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=5
+    {
+        switch(show_message_ext("In what order did the Atlantic Colonies achieve responsible government? A, Nova Scotia, PEI, New Brunswick, Newfoundland; B, PEI, Newfoundland, Nova Scotia, New Brunswick","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! The order was as following: Nova Scotia, PEI, New Brunswick, Newfoundland.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=6
+    {
+        switch(show_message_ext("Were there any Atlantic colonies which achieved responsible government before the United Province of Canada did? A, Nova Scotia; B, Nova Scotia and PEI","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! Only Nova Scotia had responsible government before the whole of Canada.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=7
+    {
+        switch(show_message_ext("When did Upper Canada eradicate slavery?","1855","","1793"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! Slavery was eradicated in 1793.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=8
+    {
+        switch(show_message_ext("When did Great Britain eradicate slavery?","1833","","1786"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! Slavery was eradicated in British colonies in 1833.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=9
+    {
+        switch(show_message_ext("When did the United States eradicate slavery?","1865","","1871"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! Slavery was eradicated in 1865.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=10
+    {
+        switch(show_message_ext("Which Amendment eradicated slavery in the United States?","11","","13"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! The 13th Amendment did so.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=11
+    {
+        switch(show_message_ext("From which areas did slaves come? A, Africa; B, Africa and West Indies","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! Slaves came from both Africa and the West Indies.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=12
+    {
+        switch(show_message_ext("Where did Harriet Tubman lead slaves to via the Underground Railway? A, overseas; B, the United Province of Canada","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! The slaves escaped to the United Province of Canada.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=13
+    {
+        switch(show_message_ext("As many as __,___ slaves were transported to safety.","63,000","","40,000"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! Only 40,000 slaves made it to freedom.")
+                global.points-=5
+                global.qid3+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid3+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid3=14
+    {
+        show_message("Well Done! You have finished this level with "+string(global.points)+" of a total of 420 points!")
+        show_message("Hope you enjoyed!")
+        show_message("Credits:
+        Harry - Game Programmer/Designer
+        Marco - Writing Component/Powerpoint
+        Aaron - Powerpoint
+        Indy - Powerpoint/Visual")
+        instance_destroy()
+        game_end()
+    }
+}

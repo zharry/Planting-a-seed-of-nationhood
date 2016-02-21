@@ -1,0 +1,7 @@
+{
+  var xoff,yoff;
+  xoff = x - (view_xview + view_wview/2);  // offset from the view center
+  yoff = y - ystart;                       // offset from start position
+  x += xoff * 0.015;                       // Play with these values
+  y += 0.2 + yoff * 0.02;
+}

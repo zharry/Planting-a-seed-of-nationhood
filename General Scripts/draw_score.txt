@@ -1,0 +1,4 @@
+draw_set_color(c_white)
+with obj_player { draw_text(x,y,global.points) }
+with obj_character { draw_text(x,y,global.points) }
+with obj_player2 { draw_text(x,y,global.points) }

@@ -1,0 +1,381 @@
+if check=0
+{
+    if global.qid2=0
+    {
+        switch(show_message_ext("By 1840, __% of men worked in agriculture or lumbering.","80","","75"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! 80% of men worked in those two strands.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=1
+    {
+        switch(show_message_ext("Why did some farmers burn their trees? A, to sell potash; B, to clean their lawns","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong!")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=2
+    {
+        switch(show_message_ext("Which two things did cities add? A, gas lights, sewers; B, mail, gas lights","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong!")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=3
+    {
+        switch(show_message_ext("Canada ____ still used the seigneurial system.","West","","East"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! Canada East used the seigneurial system.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=4
+    {
+        switch(show_message_ext("Which system replaced the seigneurial system?","Class","","Freehold"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! The freehold system was used.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=5
+    {
+        switch(show_message_ext("Which Canada East city was more populous?","Montreal","","Quebec City"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! Montreal had 40,000 people while Quebec City had 31,700.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=6
+    {
+        switch(show_message_ext("What Canada West crop made very good money for all involved?","Corn","","Wheat"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! Wheat was the money-making crop.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=7
+    {
+        switch(show_message_ext("Was Kingston a more populous city than Toronto?","Yes","","No"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! Toronto had 15,00 people, Kingston had 3,000.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=8
+    {
+        switch(show_message_ext("How many canals were installed?","Three","","Five"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! Three canals were installed.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=9
+    {
+        switch(show_message_ext("Which two decades saw the installation of the canals?","1820/1830","","1840/1850"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! The canals were built in the 1820s and 1830s.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=10
+    {
+        switch(show_message_ext("How long was the first railway?","30 km","","24 km"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! It stretched 24 km.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=11
+    {
+        switch(show_message_ext("What was the name of the first locomotive in Canada?","Dorchester","","Wales"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong!")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=12
+    {
+        switch(show_message_ext("What did schoolchildren write on in class?","Parchment","","Slate"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! They wrote on slate.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid2=13
+    {
+        switch(show_message_ext("Who made education in Canada West compulsory?","Lord Elgin","","E. Ryerson"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! It was Egerton Ryerson.")
+                global.points-=5
+                global.qid2+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid2+=1
+                check=1
+                exit
+            }
+        }
+    }
+}

@@ -1,0 +1,381 @@
+if check=0
+{
+    if global.qid=0
+    {
+        switch(show_message_ext("What did Great Britain first do to improve Canada's state? A, evaluate the situation; B, form political alliances","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! Great Britain first evaluated the situation in Canada.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=1
+    {
+        switch(show_message_ext("After how long did Lord Durham write the Durham Report after first visiting Canada?","8 weeks","","5 months"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! He stayed for five months.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=2
+    {
+        switch(show_message_ext("Did Great Britain drop trading protection for its colonies in the 1840s?","True","","False"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! Trading protection was dropped in 1846.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=3
+    {
+        switch(show_message_ext("What was James Bruce's title in Great Britain?","Earl of Elgin","","King of Elgin"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! He was the Earl of Elgin.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=4
+    {
+        switch(show_message_ext("For what purpose was Lord Elgin appointed as governor general of Canada? A, to permit uniting Upper and Lower Canada; B, to permit responsible government","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! Lord Elgin permitted responsible government.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=5
+    {
+        switch(show_message_ext("The Rebellion Losses Bill paid back citizens of Canada ____.","West","","East"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! The bill paid citizens of Canada East.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=6
+    {
+        switch(show_message_ext("The Tories supported the Rebellion Losses Bill.","True","","False"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! They strongly opposed the bill.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=7
+    {
+        switch(show_message_ext("The largest protest relating to the Rebellion Losses Bill was in Kingston.","True","","False"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! The largest was in Montreal.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=8
+    {
+        switch(show_message_ext("The Legislative Council and Legislative Assembly were both voter-elected.","True","","False"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! Only the Legislative Assembly was elected.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=9
+    {
+        switch(show_message_ext("What happened if the members of the Executive Council did not represent the Legislative Assembly's views? A, they would have to resign; B, the governor would appreciate their actions","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! The Executive Council members represented the Legislative Assembly's views.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=10
+    {
+        switch(show_message_ext("How many more government groups did the governor appoint than voters elected?","1","","0"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! The governor appointed the Legislative and Executive Councils, the voters elected the Legislative Assembly.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=11
+    {
+        switch(show_message_ext("Who appointed the governor? A, the governor was not appointed, but took on the role through heritage; B, the British king","A","","B"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! The British King appointed the governor.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=12
+    {
+        switch(show_message_ext("Were political alliances between two parties of different sides of Canada allowed?","Yes","","No"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Wrong! Many political alliances between West and East Canadian parties existed.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+    if global.qid=13
+    {
+        switch(show_message_ext("If __%+ of the seats in the Legislative Assembly were not filled by the power-holding party, political deadlock happened.","25","","50"))
+        {
+           case 0:
+            {
+                show_message("Try Again!")
+                break
+            }
+            case 1:
+            {
+                show_message("Wrong! 50% or more of the seats had to be filled.")
+                global.points-=5
+                global.qid+=1
+                check=1
+                exit
+            }
+            case 3:
+            {
+                show_message("Correct!")
+                global.points+=10
+                global.qid+=1
+                check=1
+                exit
+            }
+        }
+    }
+}

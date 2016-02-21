@@ -1,0 +1,14 @@
+if global.qid=14
+{
+    show_message("You finished the Lord Durham and Government level! Congratulations!")
+    show_message("You have earned "+string(global.points)+" of a total of 140 points! Keep up the good work!")
+    room_goto_next()
+}
+else
+{
+    if treecheck=0
+    {
+    show_message("You only answered "+string(global.qid)+" questions in total. You need to answer all 14 of the questions. Come back once you're done!")
+    treecheck=1
+    }
+}
