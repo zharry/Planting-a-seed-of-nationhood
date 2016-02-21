@@ -1,4 +1,4 @@
-# Planting-a-seed-of-nationhood
+# Planting a seed of Nationhood
 
 ## Information
 * Planting a seed of Nationhood was a grade 7 history assignment, aimed for students to better understand the formation of Canada.
